@@ -3,14 +3,15 @@ import Header from "./Components/Layout/Header";
 import "./App.css";
 import { Fragment } from "react";
 
+import Meals from "./Components/Meals/Meals";
 function App() {
   return (
-    <>
-      <Fragment>
-        <Header />
-      </Fragment>
-    </>
+    <Fragment>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </Fragment>
   );
 }
-
 export default App;
